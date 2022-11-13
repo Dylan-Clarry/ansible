@@ -3,4 +3,5 @@
   apt:
     name: ["nodejs", "npm"]
   tags:
+    - install
     - node

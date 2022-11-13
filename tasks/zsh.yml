@@ -1,6 +1,10 @@
   - name: Install zsh
     apt: name=zsh
-    tags: zsh
+    tags:
+      - install
+      - zsh
   - name: Change shell
     shell: chsh -s `which zsh`
-    tags: zsh
+    tags:
+      - install
+      - zsh
