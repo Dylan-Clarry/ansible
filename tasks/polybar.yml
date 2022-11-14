@@ -1,0 +1,7 @@
+- name: Install Polybar
+  become: true
+  apt:
+    name: ["polybar"]
+  tags:
+    - install
+    - polybar

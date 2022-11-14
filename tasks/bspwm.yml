@@ -1,0 +1,7 @@
+- name: install bspwm and sxhkd
+  become: true
+  apt:
+    name: ["bspwm", "sxhkd"]
+  tags:
+    - install
+    - bspwm

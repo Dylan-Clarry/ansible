@@ -1,0 +1,6 @@
+- name: install Kitty
+  apt:
+    name: kitty
+  tags:
+    - install
+    - kitty
